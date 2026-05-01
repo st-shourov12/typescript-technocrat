@@ -87,3 +87,11 @@ type Name = string ;
 const myName : Name = 'Shourov'
 
 console.log(myName);
+
+// function
+
+type AddFunc = (num1: number, num2:number) => number
+
+const add : AddFunc = (num1 , num2) => (num1 + num2);
+
+console.log(add(55, 62));
