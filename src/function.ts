@@ -26,4 +26,4 @@ const poorUser = {
     }
 }
 
-console.log(poorUser.addBalance(2500))
+console.log(poorUser.addBalance(2500));
