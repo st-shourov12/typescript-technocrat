@@ -82,3 +82,8 @@ const user1 : User = {
 
 console.log(user1);
 
+
+type Name = string ;
+const myName : Name = 'Shourov'
+
+console.log(myName);
