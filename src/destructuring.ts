@@ -22,5 +22,8 @@ const user = {
 // array destructuring
 
 const friends : string [] = ['Shuvro', 'Adib', 'Prashant'];
-const myBestFriend = friends[0];
-console.log(myBestFriend);
+// const myBestFriend = friends[0];
+// const [ myBestFriend , A, B] = friends;
+const [myBestFriend , ,] = friends;
+const [, A ,] = friends //Adib
+console.log(myBestFriend , A);
