@@ -13,6 +13,14 @@ const user = {
 
 // const {name : Shourov} = user ;
 // const Shourov = user?.name?.lastName;
-const { name: {middleName: myMiddleName}} = user;
+// const { name: {middleName: myMiddleName}} = user;
 
-console.log(myMiddleName);
+// console.log(myMiddleName);
+
+
+
+// array destructuring
+
+const friends : string [] = ['Shuvro', 'Adib', 'Prashant'];
+const myBestFriend = friends[0];
+console.log(myBestFriend);
