@@ -19,4 +19,6 @@ const discountCalculator = (input : unknown) => {
 
 discountCalculator(100);
 discountCalculator('700 tk');
-discountCalculator(null)
+discountCalculator(null);
+
+
