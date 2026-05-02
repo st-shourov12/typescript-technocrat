@@ -25,10 +25,29 @@ const selectedTheme = userTheme ?? "Light Theme" ;
 // console.log(selectedTheme);
 
 
-const isAuthenticated = null ;
+const isAuthenticated = null ; // null | "sss"
 const resultWithTernary = isAuthenticated ? isAuthenticated : "You are guest" ;
 
 
 const resultWithNulish = isAuthenticated ?? "You are guest" ;
 
 console.log({resultWithTernary}, {resultWithNulish});
+
+
+// optional chaining 
+const user : {
+    address : {
+        city : string;
+        town : string;
+        postalCode?: string; 
+    } 
+} = {
+    address : {
+        city : 'Dhaka',
+        town : 'Mirpur'
+    }
+}
+
+// const { address : { postalCode}} = user ;
+const myPostal = user?.address?.postalCode
+console.log(myPostal);
